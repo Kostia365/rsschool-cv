@@ -1,0 +1,27 @@
+picture{
+    width: "200";
+}
+footer{
+    background-color: black;
+    border-radius: 25px;
+    padding-right: 400;
+    box-sizing: border-box;
+	min-height: 100%;
+	padding-left: 150px;
+}
+.name{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.name_type{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+body{
+    background: rgb(143, 143, 143);
+    width: 20cm; 
+    margin:0 auto;
+}
+.link{
+    color: black;
+}
