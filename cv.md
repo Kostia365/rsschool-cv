@@ -30,7 +30,7 @@ At the same time, I want to **expand my stack** with frontend technologies (Reac
 
 ## 🌍 Languages
 
-- **English** — Intermediate / Upper-Intermediate (B2)
+- **English** — Upper-Intermediate (B2)
 
 - **Polish** — Intermediate
 
