@@ -24,7 +24,7 @@ At the same time, I want to **expand my stack** with frontend technologies (Reac
 - **Languages:** Python, Java, PHP, SQL
 - **Backend:** Python, Java (Spring Boot)
 - **Databases:** MySQL
-- **Tools & Methodologies:** Git, GitHub, REST API, GraphQL, WebSockets
+- **Tools & Methodologies:** Git, GitHub, REST API, WebSockets
 
 ---
 
