@@ -1,3 +1,15 @@
+span,
+h2 {
+	color: white;
+}
+h2 {
+	font-size: 4em;
+	margin-top: 0;
+}
+p {
+	font-size: 2em;
+	text-align: center;
+}
 body {
 	background-color: #19202e;
 	display: flex;
@@ -10,8 +22,10 @@ main {
 	flex-direction: column;
 	display: flex;
 	align-items: center;
-	width: 60%;
-	border: 10px;
+	min-width: 1150px;
+	margin-left: 2em;
+	margin-right: 2em;
+	border-radius: 2em;
 }
 header {
 	display: flex;
@@ -19,6 +33,7 @@ header {
 }
 h1 {
 	color: white;
+	text-align: center;
 }
 p {
 	font-size: 3cap;
@@ -45,4 +60,33 @@ p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+.infoPart {
+	padding: 2em;
+	display: flex;
+	justify-content: space-between;
+	border-right: 1px white;
+}
+/* .about {
+	max-width: 50%;
+} */
+@media (max-width: 1200px) {
+	.infoPart {
+		flex-direction: column;
+	}
+}
+.infoFlex {
+	display: flex;
+	flex-direction: column;
+	border-right: 2px solid white;
+	max-width: 700px;
+	padding: 1em;
+}
+.skills {
+	display: flex;
+	flex-direction: column;
+	max-width: 700px;
+	min-width: 200px;
+	color: white;
+	
 }
