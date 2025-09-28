@@ -3,13 +3,14 @@ h2 {
 	color: white;
 }
 h2 {
-	font-size: 4em;
+	font-size: 2rem;
 	margin-top: 0;
 }
 p {
 	font-size: 2em;
 	text-align: center;
 }
+
 body {
 	background-color: #19202e;
 	display: flex;
@@ -17,12 +18,18 @@ body {
 	justify-content: center;
 	flex-direction: column;
 }
+pre {
+	background-color: #10151b;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
 main {
 	background-color: #1e2738;
 	flex-direction: column;
 	display: flex;
 	align-items: center;
-	min-width: 1150px;
+	max-width: 1150px;
 	margin-left: 2em;
 	margin-right: 2em;
 	border-radius: 2em;
@@ -34,6 +41,7 @@ header {
 h1 {
 	color: white;
 	text-align: center;
+	font-size: 3rem;
 }
 p {
 	font-size: 3cap;
@@ -65,16 +73,11 @@ p {
 	padding: 2em;
 	display: flex;
 	justify-content: space-between;
-	border-right: 1px white;
+	/* border-right: 1px white; */
 }
 /* .about {
 	max-width: 50%;
 } */
-@media (max-width: 1200px) {
-	.infoPart {
-		flex-direction: column;
-	}
-}
 .infoFlex {
 	display: flex;
 	flex-direction: column;
@@ -83,10 +86,53 @@ p {
 	padding: 1em;
 }
 .skills {
+	padding: 1rem;
 	display: flex;
 	flex-direction: column;
-	max-width: 700px;
+	max-width: 400px;
 	min-width: 200px;
 	color: white;
-	
+}
+code {
+	color: white;
+}
+.infoText {
+	text-align: start;
+}
+li {
+	font-size: 1.5rem;
+	color: white;
+	/* margin-left: 2rem; */
+}
+.Languages li {
+	margin-left: 2rem;
+}
+
+@media (max-width: 1200px) {
+	.infoPart {
+		flex-direction: column;
+	}
+	.infoFlex {
+		border-right: 0px white !important;
+	}
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+}
+	.rss-logo {
+		width: 120px;
+	}
+@media (max-width: 600px) {
+	.footer {
+		flex-direction: column;
+		gap: 8px;
+		padding: 12px;
+		text-align: center;
+	}
+	.rss-logo {
+		width: 84px;
+	}
 }
